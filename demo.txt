@@ -1,0 +1,48 @@
+
+Steps for roleStudio basic role creation flow , [java-selenium] practice
+
+
+
+
+driver.findElement(By.xpath("//li[@data-menu-toggle='hover'][5]")).click();
+		  Thread.sleep(3000);
+		  driver.findElement(By.xpath("//button[@class='btn btn-primary btn-xs list-icons-item'][1]")).click();
+		  driver.findElement(By.cssSelector("input[placeholder='Enter Role name here']")).sendKeys("Intern Role Automated");
+		  driver.findElement(By.cssSelector("select[name='category']")).click();
+		  driver.findElement(By.cssSelector("option[value='1: Enterprise Roles']")).click();
+		  
+		  driver.findElement(By.cssSelector("div[class='col-md-6 ng-star-inserted'] button[class='btn btn-light']")).click();
+		  Thread.sleep(5000);
+		  driver.findElement(By.cssSelector("select[name='searchOwnerCreate']")).click();
+		  driver.findElement(By.cssSelector("input[placeholder='Search owner']")).sendKeys("Pbule");
+		  Thread.sleep(3000);
+		  driver.findElement(By.cssSelector("li[class='item ng-star-inserted']")).click();
+		  driver.findElement(By.xpath("//textarea[@id='resizable']")).sendKeys(" this role is made for demo use case and for practice");
+		  driver.findElement(By.xpath("(//h6[@class='card-title'])[1]")).click();
+		  driver.findElement(By.cssSelector("input[placeholder='Enter Application Name']")).sendKeys("Finance Cloud App");
+		  driver.findElement(By.cssSelector("a[class='ng-star-inserted']")).click(); 
+		  driver.findElement(By.cssSelector("button[type='submit'] i[class='fa fa-search']")).click(); 
+		  driver.findElement(By.xpath("//tbody/tr[3]/td[1]")).click();
+		  driver.findElement(By.xpath("//tbody/tr[6]/td[1]/button[1]")).click();
+		  driver.findElement(By.cssSelector("button[class='btn btn-primary btn-md ng-star-inserted']")).click();
+		  driver.findElement(By.xpath("(//h6[@class='card-title'])[4]")).click();
+		  driver.findElement(By.cssSelector("input[placeholder='Role member search']")).sendKeys("CKENT");
+		  driver.findElement(By.xpath("//button[@class='btn btn-secondary']")).click();
+		  driver.findElement(By.xpath("//button[@class='btn btn-light btn-xs']")).click();
+		  driver.findElement(By.cssSelector("input[placeholder='Role member search']")).clear();
+		  Thread.sleep(2000);
+		  driver.findElement(By.cssSelector("input[placeholder='Role member search']")).sendKeys("PBULE");
+		  driver.findElement(By.xpath("//button[@class='btn btn-secondary']")).click();
+		  driver.findElement(By.xpath("//button[@class='btn btn-light btn-xs']")).click();
+		  driver.findElement(By.cssSelector("input[placeholder='Role member search']")).clear();
+		  Thread.sleep(2000);
+		  driver.findElement(By.cssSelector("input[placeholder='Role member search']")).sendKeys("VBELE");
+		  driver.findElement(By.xpath("//button[@class='btn btn-secondary']")).click();
+		  driver.findElement(By.xpath("//button[@class='btn btn-light btn-xs']")).click();
+		  driver.findElement(By.cssSelector("input[placeholder='Role member search']")).clear();
+		  driver.findElement(By.xpath("//button[@class='btn btn-primary btn-md ng-star-inserted']")).click();
+		  driver.findElement(By.cssSelector("button[class='btn btn-primary float-right mx-1 ng-star-inserted']")).click();
+		  driver.findElement(By.xpath("//textarea[@id='justification']")).sendKeys("for test");
+		// discard the role
+		  Thread.sleep(10000);
+		  driver.findElement(By.xpath("//button[@class='btn btn-outline-secondary float-right mx-1 ng-star-inserted']")).click();.
