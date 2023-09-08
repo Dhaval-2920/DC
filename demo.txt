@@ -18,8 +18,8 @@ driver.findElement(By.xpath("//li[@data-menu-toggle='hover'][5]")).click();
 		  driver.findElement(By.cssSelector("input[placeholder='Search owner']")).sendKeys("Pbule");
 		  Thread.sleep(3000);
 		  driver.findElement(By.cssSelector("li[class='item ng-star-inserted']")).click();
-		  driver.findElement(By.xpath("//textarea[@id='resizable']")).sendKeys(" this role is made for demo use case and for practice");
-		  driver.findElement(By.xpath("(//h6[@class='card-title'])[1]")).click();
+		  driver.findElement(By.xpath("//textarea[@id='resizable']")).sendKeys(" this role is made for demo use case and                        for practice");
+  		  driver.findElement(By.xpath("(//h6[@class='card-title'])[1]")).click();
 		  driver.findElement(By.cssSelector("input[placeholder='Enter Application Name']")).sendKeys("Finance Cloud App");
 		  driver.findElement(By.cssSelector("a[class='ng-star-inserted']")).click(); 
 		  driver.findElement(By.cssSelector("button[type='submit'] i[class='fa fa-search']")).click(); 
@@ -46,4 +46,4 @@ driver.findElement(By.xpath("//li[@data-menu-toggle='hover'][5]")).click();
 		  driver.findElement(By.xpath("//textarea[@id='justification']")).sendKeys("for test");
 		// discard the role
 		  Thread.sleep(10000);
-		  driver.findElement(By.xpath("//button[@class='btn btn-outline-secondary float-right mx-1 ng-star-inserted']")).click();
+	driver.findElement(By.xpath("//button[@class='btn btn-outline-secondary float-right mx-1 ng-star-inserted']")).click();
